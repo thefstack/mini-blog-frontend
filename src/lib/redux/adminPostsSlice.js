@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const BASE_URL = process.env.SERVER_URL || 'http://localhost:4000/admin/posts';
+const BASE_URL = process.env.SERVER_URL || 'https://mini-blog-backend-q3l3.onrender.com/admin/posts';
 
 export const fetchAdminPosts = createAsyncThunk('adminPosts/fetch', async () => {
   const res = await axios.get(BASE_URL);
