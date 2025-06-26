@@ -79,7 +79,7 @@ export default function HomePage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <header className="text-center mb-12">
            <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
-             Today's <span className="text-red-600">Headlines</span> from India
+             Today&apos;s <span className="text-red-600">Headlines</span> from India
            </h1>
            <p className="text-lg text-gray-500 max-w-2xl mx-auto">
              Explore the latest news and stories from sources across the nation.
